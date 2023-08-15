@@ -1,0 +1,298 @@
+
+#main {
+    padding: 45px 10px 45px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+#main img{
+    margin-bottom:45px;
+}
+#main figcaption{
+    font-family: 'Lisu Bosa', serif;
+    color:#7c6358;
+    text-align: center;
+}
+
+#intro_text{
+    padding: 45px 10px;
+    box-sizing: border-box;
+    background-image: url("../images/wedding_text.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 -40px;
+    text-align: center;
+}
+#intro_text p{
+    font-size: 11px;
+    line-height: 20px;
+    text-align: center;
+    color: #443D3D;
+}
+#intro_text .top_text{
+    margin-bottom:20px;
+}
+#intro_text img{
+    margin: 45px 0;
+}
+#intro_text div{
+    margin-bottom:45px;
+    text-align: center;
+}
+#intro_text div p{
+    font-family: 'Nanum Myeongjo', serif;
+    color:#443D3D;
+    font-size: 15px;
+}
+#intro_text div p span{
+    font-size: 10px;
+    color: #968C8C;
+}
+#intro_text > span{
+    border:1px solid #78645a;
+    padding:10px 25px;
+    box-sizing: border-box;
+    color: #78645a;
+    font-family: 'Nanum Myeongjo', serif;
+    border-radius: 20px;
+    font-size: 13px;
+    display: inline-block;
+}
+
+#way_to_come{
+    padding:45px 10px;
+    box-sizing: border-box;
+}
+#way_to_come h2{
+    text-align: center;
+    margin-bottom:25px;
+}
+#way_to_come .map{
+    margin-bottom:5px;
+}
+#way_to_come .map_link{
+    width:100%;
+    display: inline-block;
+    padding:10px 0;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 12px;
+    border-radius: 5px;
+    background:#ededed;
+    font-weight: bold;
+    margin-bottom:20px;
+}
+
+#way_to_come .wrap{
+    padding:0 20px;
+    box-sizing: border-box;
+}
+#way_to_come .wrap .address{
+    font-size: 13px;
+    text-align: left;
+    color: #443D3D;
+    margin-bottom:25px;
+}
+
+#way_to_come .wrap .address span{
+    color: #968C8C;
+    font-size: 10px;
+}
+#way_to_come .wrap .description{
+    text-align: left;
+    margin-bottom:45px;
+}
+
+#way_to_come .wrap .description div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom:20px;
+}
+
+#way_to_come .wrap .description h3{
+    width:calc(100% - 200px);
+    color: #968C8C;
+    display: inline-block;
+    width:80px;
+    font-size: 10px;
+}
+#way_to_come .wrap .description ul{
+    width: 200px;
+}
+#way_to_come .wrap .description li{
+    line-height: 15px;
+    margin-bottom:5px;
+    font-size: 10px;
+}
+
+#way_to_come .wrap .description li:last-child{
+    margin-bottom:0px;
+}
+#way_to_come .wrap .description li span{
+    font-size: 10px;
+    display: inline-block;
+}
+#way_to_come .wrap .reception{
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 15px;
+    color: #443D3D;
+    padding-bottom:45px;
+    border-bottom: 1px solid #e3dddd;
+}
+
+
+#photo{
+    padding:0 10px 45px;
+    box-sizing: border-box;
+}
+#photo h3{
+    text-align: center;
+    color: #443D3D;
+    margin-bottom:45px;
+}
+#photo ul{
+    width: 100%;
+    display: inline-block;
+}
+#photo li{
+    width: calc((100% - 20px) / 3);
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 3px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom:10px;
+}
+#photo li:nth-child(3n){
+    margin-right: 0;
+}
+
+#photo li:nth-child(7),
+#photo li:nth-child(8),
+#photo li:nth-child(9){
+    margin-bottom:0;
+}
+
+#photo li.photo_01{
+    background-image: url("../images/photo_01.jpeg");
+}
+
+#photo li.photo_02{
+    background-image: url("../images/photo_02.jpeg");
+}
+
+#photo li.photo_03{
+    background-image: url("../images/photo_03.jpeg");
+}
+#photo li.photo_04{
+    background-image: url("../images/photo_04.jpeg");
+}
+#photo li.photo_05{
+    background-image: url("../images/photo_05.jpeg");
+}
+
+#photo li.photo_06{
+    background-image: url("../images/photo_06.jpeg");
+}
+#photo li.photo_07{
+    background-image: url("../images/photo_07.jpeg");
+}
+#photo li.photo_08{
+    background-image: url("../images/photo_08.jpeg");
+}
+#photo li.photo_09{
+    background-image: url("../images/photo_09.jpeg");
+}
+
+#popup{
+    background: rgba(0,0,0,0.5);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    max-width: 420px;
+    display: none;
+}
+#popup .img_show span{
+    position: absolute;
+    top:-20px;
+    right:-25px;
+    width: 20px;
+    display: inline-block;
+    filter: invert(100%) sepia(86%) saturate(0%) hue-rotate(255deg) brightness(104%) contrast(101%);;
+}
+#popup .img_show {
+    width: 80%;
+    margin:auto;
+    position: absolute;
+    top:0;
+    bottom:0;
+    right: 0;
+    left: 0;
+    border:5px solid #ffffff;
+}
+
+#tel{
+    padding:45px 10px;
+    box-sizing: border-box;
+}
+#tel h3{
+    text-align: center;
+    color: #443D3D;
+    margin-bottom:45px;
+}
+
+#tel p{
+    font-size: 11px;
+    line-height: 20px;
+    text-align: center;
+    color: #443D3D;
+    margin-bottom: 20px;
+}
+
+#tel .tel_common{
+    width: 300px;
+    text-align: center;
+    margin: 0 auto 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+#tel .tel_common span.title{
+    background: #e3d8cf;
+    padding: 10px 0;
+    box-sizing: border-box;
+    display: inline-block;
+    width:100%;
+    position: relative;
+    color: #443D3D;
+}
+
+#tel .tel_common span.title span.arrow{
+    width: 10px;
+    height: 10px;
+    border:1px solid #443D3D;
+    display: inline-block;
+    transform: scaleY(-1) rotate(45deg);
+    transform-origin: right 2px;
+    border-top:none;
+    border-left: none;
+    position: absolute;
+    top:14px;
+    right: 15px;
+
+}
+
+#tel .tel_common p{
+    background: #fff;
+    padding: 10px 0;
+    box-sizing: border-box;
+    display: block;
+    width:100%;
+    font-size: 11px;
+}
+
+#tel .tel_common p span{
+    font-size: 11px;
+}
+
